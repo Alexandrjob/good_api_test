@@ -24,9 +24,9 @@
 
 ### Шаги по запуску
 
-1.  **Клонируйте репозиторий (если еще не сделали):**
+1.  **Клонируйте репозиторий:**
     ```bash
-    git clone <URL вашего репозитория>
+    git clone https://github.com/Alexandrjob/good_api_test.git
     ```
 
 2.  **Запустите сервисы с помощью Docker Compose:**
