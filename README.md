@@ -38,10 +38,8 @@
     После запуска всех контейнеров, API будет доступен по адресу `http://localhost:8080/api/v1`.
     
 ### Тестирование
-Вы можете импортировать следующую коллекцию Postman для удобного тестирования API:
-
-1. **Postman Collection:**
-```http request
+1. **Postman:**
+```
 https://web.postman.co/workspace/My-Workspace~a8f3e728-46ba-4698-8343-9d6e0f18fa6c/collection/37898445-49c254e0-f520-4a59-b2cf-fdc602e03097?action=share&source=copy-link&creator=37898445
 ```
 Или
@@ -50,8 +48,6 @@ https://.postman.co/workspace/My-Workspace~a8f3e728-46ba-4698-8343-9d6e0f18fa6c/
 ```
 
 ## Переменные окружения
-
-Проект использует следующие переменные окружения. Вы можете задать их в файле `.env` в корне проекта (рядом с `go.mod`) или через системные переменные окружения.
 *   `POSTGRES_USER`: Пользователь PostgreSQL.
 *   `POSTGRES_PASSWORD`: Пароль PostgreSQL.
 *   `POSTGRES_DB`: Имя базы данных PostgreSQL.
